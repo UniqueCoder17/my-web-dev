@@ -37,13 +37,16 @@
     margin-top: 40px;
     margin-left: 100px;
 }
-.Watch{
+
+.Watch {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 20px;
+    margin-top: 30px;
     color: #1cd5ff;
 }
+
 .card-container-fresh-fish {
     margin-top: 30px;
     display: flex;
@@ -60,19 +63,25 @@
     align-items: center;
 }
 
-.card-h1{
+.card-h1 {
     font-size: 20px;
     font-weight: 600;
 }
 
-.card-p{
+.buy:hover {
+    color: #fff;
+}
+
+.card-p {
     font-size: 20px;
     font-weight: 500;
 }
-.x{
+
+.x {
     text-decoration: line-through;
     margin-top: 10px;
 }
+
 .card .image-box {
     width: 200px;
     border: 1px solid rgba(22, 20, 20, 0.164);
@@ -87,7 +96,8 @@
     border-radius: 8px;
     background: rgba(74, 174, 3, 0.15);
 }
-.buy{
+
+.buy {
     width: 120px;
     height: 40px;
     color: black;
