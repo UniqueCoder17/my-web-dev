@@ -1,0 +1,76 @@
+
+.banner-vahicale {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.banner-vahicale-img {
+    width: 550px;
+    height: 350px;
+    border: 1px solid rgba(22, 20, 20, 0.164);
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.vahicale-title {
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+.span-1 {
+    color: #727272;
+}
+
+.span{
+    color: #a00202;
+}
+
+.vahicale-description {
+    width: 400px;
+    height: 200px;
+    color: #727272;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+
+
+.banner-vahicale-img {
+    width: 550px;
+    height: 350px;
+    border: 1px solid rgba(22, 20, 20, 0.164);
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.vahicale-title {
+    width: 350px;
+    height: 140px;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+.span-1 {
+    color: #727272;
+}
+
+.span-2 {
+    color: #ff900e;
+}
+
+.vahicale-description {
+    width: 400px;
+    height: 200px;
+    color: #727272;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}

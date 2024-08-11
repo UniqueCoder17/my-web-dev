@@ -1,0 +1,98 @@
+.banner-barmis {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.banner-barmis-img {
+    width: 550px;
+    height: 350px;
+    border: 1px solid rgba(22, 20, 20, 0.164);
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 250px;
+}
+
+.barmis-title {
+    width: 350px;
+    height: 140px;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.span-1 {
+    color: #727272;
+}
+
+.span-2 {
+    color: #05a51a;
+}
+
+.barmis-description {
+    width: 400px;
+    height: 200px;
+    color: #727272;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.Watch{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #05a51a;
+}
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.x{
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+.card .image-box {
+    width: 200px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    background: rgba(74, 174, 3, 0.15);
+}
+.buy{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: #05a51a;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    border-radius: 18px;
+
+}
