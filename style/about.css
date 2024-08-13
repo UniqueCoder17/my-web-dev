@@ -1,0 +1,62 @@
+.span {
+    color: #a00202;
+}
+
+.span-1 {
+    color: #727272;
+}
+
+.span-2 {
+    color: #ff900e;
+}
+
+.span-3 {
+    color: #05a51a;
+}
+
+.span-4 {
+    color: #1cd5ff;
+}
+
+.about-section {
+    display: flex;
+}
+
+.about-banner {
+    width: 600px;
+    height: 400px;
+    background-image: url("../images/Group\ 3.png");
+    background-color: #6e6e6e22;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 30px;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+
+}
+.about-section-title{
+    width: 550px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 200px;
+    margin-top: 4rem;
+}
+.about-section-description {
+    width: 550px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
+.about-section-description-1 {
+    font-size: 20px;
+    font-weight: 500;
+}
