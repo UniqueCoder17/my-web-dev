@@ -58,14 +58,6 @@ a {
 .cox {
     color: #1cd5ff;
 }
-.coma{
-    color: #ff900e;
-}
-.two {
-    font-size: 25px;
-    font-weight: 600;
-    color: #a00202;
-}
 
 .banner {
     width: 100%;
@@ -83,13 +75,13 @@ a {
 .banner-title {
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 
-.Shop {
+.box {
     color: #ff900e;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 200px;
+    height: 30px;
 }
 
 .banner-description {
@@ -197,6 +189,124 @@ a {
     color: #ffff;
 }
 
-.buy:hover{
+.buy:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        margin: 30px 20px;
+
+    }
+
+    .nav-bar {
+        display: grid;
+    }
+
+    .nav-option {
+        width: 400px;
+        height: 70px;
+        gap: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .none {
+        display: none;
+    }
+
+    .shop-name {
+        width: 150px;
+        font-size: 25px;
+        font-weight: 800;
+        color: #ff900e;
+    }
+
+    .banner {
+        padding-top: 1rem;
+
+    }
+
+    .banner-title {
+        width: 300px;
+        color: rgb(16, 16, 16);
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-left: 40px;
+        text-align: center;
+
+    }
+
+    .banner-description {
+        width: 400px;
+        height: 150px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: -10px;
+        margin-bottom: 10px;
+        /* text-align: start; */
+        color: rgba(22, 20, 20, 0.752);
+    }
+
+    #card-box {
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    #card-box .title {
+        width: 400px;
+        color: rgb(16, 16, 16);
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #card-box .subtitle {
+        color: rgb(16, 16, 16);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-left: 0px;
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    .card-container {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .card .image-box {
+        width: 300px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .card-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .card-description {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
 }
