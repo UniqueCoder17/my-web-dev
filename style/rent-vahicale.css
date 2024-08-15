@@ -20,58 +20,22 @@
     margin-left: 300px;
 }
 
+.vahicale-description {
+    width: 400px;
+    height: 200px;
+    color: #727272;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+
 .span-1 {
     color: #727272;
 }
 
 .span {
     color: #a00202;
-}
-
-.vahicale-description {
-    width: 400px;
-    height: 200px;
-    color: #727272;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-left: 300px;
-
-}
-
-
-.banner-vahicale-img {
-    width: 550px;
-    height: 350px;
-    border: 1px solid rgba(22, 20, 20, 0.164);
-    border-radius: 20px;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.vahicale-title {
-    width: 350px;
-    height: 140px;
-    font-size: 40px;
-    font-weight: 900;
-    margin-left: 300px;
-}
-
-.span-1 {
-    color: #727272;
-}
-
-.span-2 {
-    color: #ff900e;
-}
-
-.vahicale-description {
-    width: 400px;
-    height: 200px;
-    color: #727272;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-left: 300px;
-
 }
 
 .vahicale-content {
@@ -92,11 +56,11 @@
     font-weight: 500;
 }
 
-.p-30{
+.p-30 {
     margin-top: 30px;
 }
 
-.vahicale-Contact{
+.vahicale-Contact {
     margin-left: 200px;
     margin-top: 50px;
 }
@@ -113,4 +77,68 @@
     margin-left: 70px;
     border: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-vahicale {
+        flex-direction: column-reverse;
+        margin-top: 0rem;
+    }
+
+    .banner-vahicale-img {
+        width: 380px;
+        height: 250px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .vahicale-title {
+        width: 230px;
+        height: 100px;
+        font-size: 25px;
+        font-weight: 800;
+        margin-top: 20px;
+        margin-left: 65px;
+        text-align: center;
+    }
+
+    .vahicale-description {
+        width: 350px;
+        height: 100px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .vahicale-content {
+       flex-direction: column;
+    }
+
+    .rant-vahicale-title {
+        width: 280px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    .vahicale-sub-title {
+        width: 380px;
+        height: 400px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .vahicale-Contact {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .btn-vahicale {
+        padding: 14px 18px 14px 18px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 95px;
+    }
 }
