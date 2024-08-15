@@ -48,12 +48,12 @@
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 30px;
     color:#ff900e
 }
 .card-container-shotky {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -103,4 +103,70 @@
     border: none;
     border-radius: 18px;
 
+}
+
+@media screen and (max-width:576px) {
+    .top{
+        margin-bottom: 0px;
+    }
+    .banner-shotky {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .banner-shotky-img {
+        width: 380px;
+        height: 250px;
+        margin-left: 0px;
+    }
+
+    .shotky-title {
+        width: 230px;
+        height: 100px;
+        font-size: 26px;
+        font-weight: 800;
+        margin-top: 20px;
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    .shotky-description {
+        width: 350px;
+        height: 100px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .Watch {
+        font-size: 26px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+
+    .card-container-shotky {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 400px;
+        gap: 15px;
+    }
+
+    .card .image-box {
+        width: 300px;
+        height: 250px;
+    }
+
+    .card .shop {
+        padding: 10px 20px;
+    }
+
+    .buy {
+        width: 150px;
+        height: 50px;
+    }
 }
