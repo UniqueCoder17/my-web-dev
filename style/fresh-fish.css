@@ -108,3 +108,69 @@
     border-radius: 18px;
 
 }
+
+@media screen and (max-width: 576px) {
+    .banner-barmis {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+
+    .banner-barmis-img {
+        width: 400px;
+        height: 250px;
+        margin-left: -10px;
+    }
+
+    .barmis-title {
+        width: 250px;
+        height: 90px;
+        font-size: 26px;
+        font-weight: 800;
+        margin-top: 20px;
+        margin-left: 65px;
+        text-align: center;
+    }
+
+    .barmis-description {
+        width: 350px;
+        height: 100px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .Watch {
+        font-size: 26px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+
+    .card-container-fresh-fish {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 400px;
+        gap: 15px;
+    }
+
+    .card .image-box {
+        width: 300px;
+        height: 250px;
+    }
+
+    .card .shop {
+        padding: 10px 20px;
+    }
+
+    .buy {
+        width: 150px;
+        height: 50px;
+        /* font-size: 20px;
+        font-weight: 800; */
+    
+    }
+}
